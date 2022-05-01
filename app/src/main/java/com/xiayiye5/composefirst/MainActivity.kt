@@ -3,6 +3,8 @@ package com.xiayiye5.composefirst
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
@@ -10,6 +12,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.xiayiye5.composefirst.components.TextSamples
 import com.xiayiye5.composefirst.ui.theme.ComposeFirstTheme
 
 class MainActivity : ComponentActivity() {
@@ -31,7 +34,10 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String) {
-    Text(text = "Hello $name!")
+    Column() {
+        Text(text = "Hello $name!")
+        TextSamples()
+    }
 }
 
 @Preview(showBackground = true)
