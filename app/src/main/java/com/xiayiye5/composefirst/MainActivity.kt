@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.xiayiye5.composefirst.components.ClickAbleTextSamples
+import com.xiayiye5.composefirst.components.ModifierSamples
 import com.xiayiye5.composefirst.components.TextSamples
 import com.xiayiye5.composefirst.ui.theme.ComposeFirstTheme
 
@@ -38,6 +39,7 @@ fun Greeting(name: String) {
         Text(text = "Hello $name!")
         TextSamples()
         ClickAbleTextSamples()
+        ModifierSamples()
     }
 }
 
