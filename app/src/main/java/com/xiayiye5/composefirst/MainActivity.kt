@@ -40,6 +40,7 @@ fun Greeting(name: String) {
         ModifierSamples()
         ButtonSamples()
         IconSamples()
+        ImageSamples()
     }
 }
 
