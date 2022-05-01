@@ -11,6 +11,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.xiayiye5.composefirst.components.ButtonSamples
 import com.xiayiye5.composefirst.components.ClickAbleTextSamples
 import com.xiayiye5.composefirst.components.ModifierSamples
 import com.xiayiye5.composefirst.components.TextSamples
@@ -40,6 +41,7 @@ fun Greeting(name: String) {
         TextSamples()
         ClickAbleTextSamples()
         ModifierSamples()
+        ButtonSamples()
     }
 }
 
