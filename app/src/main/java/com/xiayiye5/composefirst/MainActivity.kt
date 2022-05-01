@@ -41,6 +41,7 @@ fun Greeting(name: String) {
         ButtonSamples()
         IconSamples()
         ImageSamples()
+        StateSamples()
     }
 }
 

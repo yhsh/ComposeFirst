@@ -5,3 +5,4 @@
 - 4.Button和ButtonText按钮的基本用法
 - 5.图标、图片资源基本用法 Icon只能使用矢量图片 Image可以显示png等图片
 - 6.Image的基本用法
+- 7.state状态用法
