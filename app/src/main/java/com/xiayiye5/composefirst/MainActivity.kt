@@ -53,6 +53,7 @@ fun Greeting(name: String) {
         SpacerSamples()
         DividerSamples()
         RadioButtonSamples()
+        CheckBoxSamples()
     }
 }
 

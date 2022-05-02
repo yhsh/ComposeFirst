@@ -17,3 +17,4 @@
 - 16.Spacer空格、占位符控件基本使用方法
 - 17.Divider分割线控件的基本用法
 - 18.RadioButton按钮基本用法
+- 19.CheckBox勾选控件基本用法
