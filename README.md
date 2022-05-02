@@ -9,3 +9,4 @@
 - 8.switch切换开关基础用法
 - 9.TextFiled文本输入框基本用法
 - 10.ProgressIndicator进度条的基本用法
+- 11.Slider可拖动的进度条

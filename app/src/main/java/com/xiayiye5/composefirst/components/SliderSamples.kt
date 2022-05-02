@@ -23,50 +23,58 @@ package com.xiayiye5.composefirst.components
  * #                       `=---='                     #
  * #     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   #
  * #                                                   #
- * #               佛祖保佑         永无BUG              #
+ * #               佛祖保佑         永无BUG            #
  * #                                                   #
  */
 
 /**
  * @author 下一页5（轻飞扬）
- * 创建时间：2022/5/1 19:47
+ * 创建时间：2022/5/2 9:55
  * 个人小站：http://yhsh.wap.ai(已挂)
  * 最新小站：http://www.iyhsh.icoc.in
  * 联系作者：企鹅 13343401268
  * 博客地址：http://blog.csdn.net/xiayiye5
  * 项目名称：ComposeFirst
  * 文件包名：com.xiayiye5.composefirst.components
- * 文件说明：Image的基本用法
+ * 文件说明：Slider可拖动的进度条
  */
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.size
-import androidx.compose.runtime.Composable
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.material.ExperimentalMaterialApi
+import androidx.compose.material.RangeSlider
+import androidx.compose.material.Slider
+import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.BlendMode
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.ColorFilter
-import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.dp
-import com.xiayiye5.composefirst.R
 
+@OptIn(ExperimentalMaterialApi::class)
 @Composable
-fun ImageSamples() {
-    Image(
-        //设置图片资源文件
-        painter = painterResource(id = R.drawable.image_bitmap),
-        contentDescription = null, Modifier.size(50.dp),
-        //设置图片颜色过滤
-        colorFilter = ColorFilter.tint(color = Color.Red, BlendMode.Color),
-        //设置图片裁剪方式
-        contentScale = ContentScale.Crop
-    )
+fun SliderSamples() {
+    var numberValue by remember {
+        //取值范围0-1.0f
+        mutableStateOf(0f)
+    }
+    var number by remember {
+        //取值范围0-1.0f
+        mutableStateOf(0.2f..0.7f)
+    }
+    Column(Modifier.fillMaxWidth()) {
+        Slider(
+            value = numberValue, onValueChange = {
+                numberValue = it
+            },
+            //设置几等分
+            steps = 5
+        )
+        RangeSlider(values = number, onValueChange = {
+            number = it
+        })
+    }
 }
 
 @Preview
 @Composable
-fun ImageSamplesPreview() {
-    ImageSamples()
+fun SliderSamplesPreview() {
+    SliderSamples()
 }
 
