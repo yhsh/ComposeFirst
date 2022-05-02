@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String) {
     Column {
-//        Text(text = "Hello $name!")
+        Text(text = "Hello $name!")
         TextSamples()
         ClickAbleTextSamples()
         ModifierSamples()
@@ -48,6 +48,7 @@ fun Greeting(name: String) {
         SliderSamples()
         CardSamples()
         BoxSamples()
+        ColumnSamples()
     }
 }
 
