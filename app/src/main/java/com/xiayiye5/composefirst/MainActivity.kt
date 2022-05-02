@@ -47,6 +47,7 @@ fun Greeting(name: String) {
 		ProgressIndicatorSamples()
         SliderSamples()
         CardSamples()
+        BoxSamples()
     }
 }
 
