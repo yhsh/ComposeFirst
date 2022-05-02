@@ -54,6 +54,7 @@ fun Greeting(name: String) {
         DividerSamples()
         RadioButtonSamples()
         CheckBoxSamples()
+        ListItemSamples()
     }
 }
 
