@@ -51,6 +51,7 @@ fun Greeting(name: String) {
         ColumnSamples()
         RowSamples()
         SpacerSamples()
+        DividerSamples()
     }
 }
 
