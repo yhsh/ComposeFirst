@@ -44,6 +44,7 @@ fun Greeting(name: String) {
         StateSamples()
         SwitchSamples()
         TextFiledSamples()
+		ProgressIndicatorSamples()
     }
 }
 
