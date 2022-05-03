@@ -19,3 +19,4 @@
 - 18.RadioButton按钮基本用法
 - 19.CheckBox勾选控件基本用法
 - 20.ListItem列表布局基本用法,有bug待修复
+- 21.LazyColumn带滚动的列表一

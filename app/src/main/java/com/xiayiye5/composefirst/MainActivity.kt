@@ -5,6 +5,8 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
@@ -33,7 +35,8 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String) {
-    Column {
+    //添加列表滚动属性
+    Column(modifier = Modifier.verticalScroll(rememberScrollState())) {
         Text(text = "Hello $name!")
         TextSamples()
         ClickAbleTextSamples()
@@ -44,7 +47,7 @@ fun Greeting(name: String) {
         StateSamples()
         SwitchSamples()
         TextFiledSamples()
-		ProgressIndicatorSamples()
+        ProgressIndicatorSamples()
         SliderSamples()
         CardSamples()
         BoxSamples()
@@ -55,6 +58,7 @@ fun Greeting(name: String) {
         RadioButtonSamples()
         CheckBoxSamples()
         ListItemSamples()
+        LazyColumnSamples()
     }
 }
 
