@@ -54,6 +54,7 @@ fun ListItemSamples() {
     var listData by remember {
         mutableStateOf(
             listOf(
+                //如果需要改变下面对象里面的属性，需要单独复制一份生成一个新的对象才可以
                 ListItemModel("张三", false),
                 ListItemModel("李四", false),
                 ListItemModel("王五", false),
@@ -70,12 +71,14 @@ fun ListItemSamples() {
                 trailing = {
                     Checkbox(checked = itemModel.isCheck, onCheckedChange = { isSelect ->
                         listData = listData.mapIndexed { i, model ->
+                            //需要复制一份新数据，才可以更新数据内容
+                            val newModel = model.copy()
                             if (index == i) {
-                                itemModel.isCheck = !model.isCheck
+                                newModel.isCheck = !model.isCheck
                             } else {
-                                itemModel.isCheck = model.isCheck
+                                newModel.isCheck = model.isCheck
                             }
-                            return@mapIndexed itemModel
+                            return@mapIndexed newModel
                         }
                         Log.d("ListItemSamples", "打印数据${listData}--是否选中：$isSelect")
                     })
