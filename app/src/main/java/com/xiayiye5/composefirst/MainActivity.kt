@@ -59,6 +59,7 @@ fun Greeting(name: String) {
         CheckBoxSamples()
         ListItemSamples()
         LazyColumnSamples()
+//        LazyVerticalGridSamples()
     }
 }
 
