@@ -20,3 +20,4 @@
 - 19.CheckBox勾选控件基本用法
 - 20.ListItem列表布局基本用法,有bug待修复
 - 21.LazyColumn带滚动的列表一
+- 22.LazyRow滑动到指定item、LazyRow浮动标签
