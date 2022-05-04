@@ -61,6 +61,7 @@ fun Greeting(name: String) {
         LazyColumnSamples()
 //        LazyVerticalGridSamples()
         ConstraintLayoutSamples()
+        ConstraintLayout2Samples()
     }
 }
 
