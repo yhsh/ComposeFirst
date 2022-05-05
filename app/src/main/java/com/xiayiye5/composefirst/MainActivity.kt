@@ -63,6 +63,7 @@ fun Greeting(name: String) {
         ConstraintLayoutSamples()
         ConstraintLayout2Samples()
         TabRowSamples()
+        DropDownMenuSamples()
     }
 }
 
