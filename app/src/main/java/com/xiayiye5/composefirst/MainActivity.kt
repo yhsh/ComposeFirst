@@ -62,6 +62,7 @@ fun Greeting(name: String) {
 //        LazyVerticalGridSamples()
         ConstraintLayoutSamples()
         ConstraintLayout2Samples()
+        TabRowSamples()
     }
 }
 
