@@ -64,6 +64,7 @@ fun Greeting(name: String) {
         ConstraintLayout2Samples()
         TabRowSamples()
         DropDownMenuSamples()
+        SurfaceSamples()
     }
 }
 
