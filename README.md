@@ -29,3 +29,4 @@
 - 28.DropDownMenu菜单控件的基本用法
 - 29.Surface容器的基本使用
 - 30.Scaffold脚手架控件基本用法之topBar
+- 31.Scaffold脚手架控件基本用法之bottomBar控件之BottomNavigation
