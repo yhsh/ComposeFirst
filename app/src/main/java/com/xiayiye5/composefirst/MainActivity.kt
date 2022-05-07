@@ -65,6 +65,7 @@ fun Greeting(name: String) {
         TabRowSamples()
         DropDownMenuSamples()
         SurfaceSamples()
+        ScaffoldTopBarSamples()
     }
 }
 
