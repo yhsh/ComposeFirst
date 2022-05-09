@@ -69,6 +69,7 @@ fun Greeting(name: String) {
         ScaffoldBottomBarSamples()
         ScaffoldMenuSamples()
         BackDropScaffoldSamples()
+        BottomSheetScaffoldSamples()
     }
 }
 
