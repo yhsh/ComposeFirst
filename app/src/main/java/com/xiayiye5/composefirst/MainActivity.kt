@@ -70,6 +70,7 @@ fun Greeting(name: String) {
         ScaffoldMenuSamples()
         BackDropScaffoldSamples()
         BottomSheetScaffoldSamples()
+        DialogSamples()
     }
 }
 
