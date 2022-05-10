@@ -71,6 +71,7 @@ fun Greeting(name: String) {
         BackDropScaffoldSamples()
         BottomSheetScaffoldSamples()
         DialogSamples()
+        AlertDialogSamples()
     }
 }
 
