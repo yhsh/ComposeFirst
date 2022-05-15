@@ -72,6 +72,7 @@ fun Greeting(name: String) {
         BottomSheetScaffoldSamples()
         DialogSamples()
         AlertDialogSamples()
+        ComposeViewSamples()
     }
 }
 

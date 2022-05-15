@@ -2,4 +2,5 @@
     <string name="app_name">ComposeFirst</string>
     <string name="text_samples">从String.xml中设置文字适配国际化</string>
     <string name="text_weight">Text的高级用法，点我</string>
+    <string name="xml_layout_content">我是XML布局中的文本控件</string>
 </resources>
