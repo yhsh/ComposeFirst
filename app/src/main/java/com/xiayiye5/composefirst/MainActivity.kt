@@ -16,6 +16,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.xiayiye5.composefirst.components.*
 import com.xiayiye5.composefirst.ui.theme.ComposeFirstTheme
 
+/**
+ * @author xiayiye5
+ * 此项目为compose基本学习项目，都是基础控件内容
+ */
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
