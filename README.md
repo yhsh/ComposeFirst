@@ -36,3 +36,4 @@
 - 35.Dialog基本用法-可以自己定义布局
 - 36.AlertDialog弹框的基本用法-系统内置的弹窗的基本用法
 - 37.Compose中使用XML布局和XML布局中使用Compose的基本用法
+- 38.使用XML布局搭建学习案例demo首页框架

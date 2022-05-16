@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compose_list">
+        <item>Compost列表</item>
+        <item>TextSamples()</item>
+        <item>ClickAbleTextSamples()</item>
+        <item>ModifierSamples()</item>
+        <item>ButtonSamples()</item>
+        <item>IconSamples()</item>
+        <item>ImageSamples()</item>
+        <item>StateSamples()</item>
+        <item>SwitchSamples()</item>
+        <item>TextFiledSamples()</item>
+        <item>ProgressIndicatorSamples()</item>
+        <item>SliderSamples()</item>
+        <item>CardSamples()</item>
+        <item>BoxSamples()</item>
+        <item>ColumnSamples()</item>
+        <item>RowSamples()</item>
+        <item>SpacerSamples()</item>
+        <item>DividerSamples()</item>
+        <item>RadioButtonSamples()</item>
+        <item>CheckBoxSamples()</item>
+        <item>ListItemSamples()</item>
+        <item>LazyColumnSamples()</item>
+        <item>LazyVerticalGridSamples()</item>
+        <item>ConstraintLayoutSamples()</item>
+        <item>ConstraintLayout2Samples()</item>
+        <item>TabRowSamples()</item>
+        <item>DropDownMenuSamples()</item>
+        <item>SurfaceSamples()</item>
+        <item>ScaffoldTopBarSamples()</item>
+        <item>ScaffoldBottomBarSamples()</item>
+        <item>ScaffoldMenuSamples()</item>
+        <item>BackDropScaffoldSamples()</item>
+        <item>BottomSheetScaffoldSamples()</item>
+        <item>DialogSamples()</item>
+        <item>AlertDialogSamples()</item>
+        <item>ComposeViewSamples()</item>
+    </string-array>
+</resources>
