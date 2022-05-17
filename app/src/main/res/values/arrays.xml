@@ -37,5 +37,6 @@
         <item>DialogSamples()</item>
         <item>AlertDialogSamples()</item>
         <item>ComposeViewSamples()</item>
+        <item>PageJumpSamples()</item>
     </string-array>
 </resources>

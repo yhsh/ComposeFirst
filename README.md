@@ -38,3 +38,4 @@
 - 37.Compose中使用XML布局和XML布局中使用Compose的基本用法
 - 38.使用XML布局搭建学习案例demo首页框架
 - 39.首页学习案例列表页面,Navigation导航路由组件的基本用法
+- 40.navigation页面跳转携带参数的基本用法

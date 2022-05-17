@@ -75,4 +75,6 @@ object RoutePathUtil {
     const val DIALOG_SAMPLES = "home/page/DialogSamples"
     const val ALERTDIALOG_SAMPLES = "home/page/AlertDialogSamples"
     const val COMPOSE_VIEW_SAMPLES = "home/page/ComposeViewSamples"
+    const val PAGE_JUMP_SAMPLES = "home/page/PageJumpSamples"
+    const val ACTIVITY_TWO = "home/page/ActivityTwo"
 }

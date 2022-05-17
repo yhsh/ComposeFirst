@@ -112,6 +112,7 @@ fun ComposeViewPage() {
                         33 -> mNavController.navigate(RoutePathUtil.DIALOG_SAMPLES)
                         34 -> mNavController.navigate(RoutePathUtil.ALERTDIALOG_SAMPLES)
                         35 -> mNavController.navigate(RoutePathUtil.COMPOSE_VIEW_SAMPLES)
+                        36 -> mNavController.navigate(RoutePathUtil.PAGE_JUMP_SAMPLES)
                     }
                 }
             }
@@ -255,6 +256,10 @@ fun ComposeViewPage() {
         //Compose中使用XML布局和XML布局中使用Compose的基本用法
         composable(route = RoutePathUtil.COMPOSE_VIEW_SAMPLES) {
             ComposeViewSamples()
+        }
+        //navigation页面跳转携带参数的基本用法
+        composable(route = RoutePathUtil.PAGE_JUMP_SAMPLES) {
+            PageJumpSamples()
         }
     }
 }
