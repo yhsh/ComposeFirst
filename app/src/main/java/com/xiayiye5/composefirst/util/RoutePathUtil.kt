@@ -77,4 +77,5 @@ object RoutePathUtil {
     const val COMPOSE_VIEW_SAMPLES = "home/page/ComposeViewSamples"
     const val PAGE_JUMP_SAMPLES = "home/page/PageJumpSamples"
     const val ACTIVITY_TWO = "home/page/ActivityTwo"
+    const val ANIMATION_SAMPLES = "home/page/AnimationSamples"
 }

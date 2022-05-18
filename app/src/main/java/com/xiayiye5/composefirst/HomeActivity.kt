@@ -113,6 +113,7 @@ fun ComposeViewPage() {
                         34 -> mNavController.navigate(RoutePathUtil.ALERTDIALOG_SAMPLES)
                         35 -> mNavController.navigate(RoutePathUtil.COMPOSE_VIEW_SAMPLES)
                         36 -> mNavController.navigate(RoutePathUtil.PAGE_JUMP_SAMPLES)
+                        37 -> mNavController.navigate(RoutePathUtil.ANIMATION_SAMPLES)
                     }
                 }
             }
@@ -260,6 +261,9 @@ fun ComposeViewPage() {
         //navigation页面跳转携带参数的基本用法
         composable(route = RoutePathUtil.PAGE_JUMP_SAMPLES) {
             PageJumpSamples()
+        }
+        composable(route = RoutePathUtil.ANIMATION_SAMPLES) {
+            AnimationSamples()
         }
     }
 }
