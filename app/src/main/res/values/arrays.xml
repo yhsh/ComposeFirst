@@ -39,5 +39,6 @@
         <item>ComposeViewSamples()</item>
         <item>PageJumpSamples()</item>
         <item>AnimationSamples()</item>
+        <item>AccompanistPagerSample()</item>
     </string-array>
 </resources>

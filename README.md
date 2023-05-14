@@ -40,3 +40,4 @@
 - 39.首页学习案例列表页面,Navigation导航路由组件的基本用法
 - 40.navigation页面跳转携带参数的基本用法
 - 41.Compose中Animation动画的基本用法
+- 42.AccompanistPager类似ViewPager+TabLayout的基本用法

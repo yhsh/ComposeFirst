@@ -78,4 +78,5 @@ object RoutePathUtil {
     const val PAGE_JUMP_SAMPLES = "home/page/PageJumpSamples"
     const val ACTIVITY_TWO = "home/page/ActivityTwo"
     const val ANIMATION_SAMPLES = "home/page/AnimationSamples"
+    const val ACCOMPANIST_PAGER = "home/page/accompanist_pager"
 }

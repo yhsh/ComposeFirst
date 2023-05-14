@@ -114,6 +114,7 @@ fun ComposeViewPage() {
                         35 -> mNavController.navigate(RoutePathUtil.COMPOSE_VIEW_SAMPLES)
                         36 -> mNavController.navigate(RoutePathUtil.PAGE_JUMP_SAMPLES)
                         37 -> mNavController.navigate(RoutePathUtil.ANIMATION_SAMPLES)
+                        38 -> mNavController.navigate(RoutePathUtil.ACCOMPANIST_PAGER)
                     }
                 }
             }
@@ -264,6 +265,9 @@ fun ComposeViewPage() {
         }
         composable(route = RoutePathUtil.ANIMATION_SAMPLES) {
             AnimationSamples()
+        }
+        composable(route = RoutePathUtil.ACCOMPANIST_PAGER) {
+            AccompanistPagerSample()
         }
     }
 }
